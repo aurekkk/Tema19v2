@@ -5,7 +5,7 @@
 void Capitala::display()
 {
 	Oras::display();
-	std::cout << mNumePrefect;
+	std::cout << " " << mNumePrefect;
 }
 
 Capitala::Capitala(char * Denumire, int Cod, long Nr_locuitori, int NrBlocuri, char * NumePrefect)

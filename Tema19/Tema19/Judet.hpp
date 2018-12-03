@@ -3,10 +3,13 @@
 
 class Judet {
 protected:
-	Localitate* mp;
+	//Localitate* mp;
 	int mNrLoc;
 
 public:
 	Judet(Localitate* p, int NrLoc=0);
 	~Judet();
+	void display();
+
+	std::vector<Localitate*>l;
 };
